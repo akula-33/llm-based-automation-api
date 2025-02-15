@@ -79,8 +79,6 @@ This is an automation API built using FastAPI, designed to perform various tasks
 ---
 
 
----
-
 ## API Usage
 
 - **Health Check:**
