@@ -8,7 +8,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y nodejs npm
 
 # Install required Python packages
-RUN pip install uv pandas numpy faker matplotlib seaborn scikit-learn
+RUN pip install requests fastapi uvicorn pandas numpy faker matplotlib seaborn scikit-learn
 
 # Copy the application code
 COPY . .
